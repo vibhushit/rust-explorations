@@ -7,6 +7,7 @@ Welcome to Rust Explorations! This repository serves as a collection of various 
 - [Introduction](#introduction)
 - [Projects](#projects)
   - [Linked List](#linked-list)
+  - [Leetcode](#leetcode-solutions)
   <!-- - [Other Projects](#other-projects) -->
 - [Getting Started](#getting-started)
 - [License](#license)
@@ -20,6 +21,10 @@ This repository is my personal playground for learning Rust. Whether it's implem
 ### Linked List
 - **Folder**: `linked_list/`
 - **Description**: Implementation of a singly/doubly linked list in Rust, exploring basic data structure concepts and memory management in Rust.
+
+### Leetcode Solutions
+- **Folder**: `leetcode/`
+- **Description**: This repository contains solutions to various LeetCode problems implemented in Rust.
 
 <!-- ### Other Projects
 - **Folder**: `http_server/` 

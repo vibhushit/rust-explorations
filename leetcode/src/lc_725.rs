@@ -35,7 +35,7 @@ pub fn split_list_to_parts(head: Option<Box<ListNode>>, k: i32) -> Vec<Option<Bo
         current = node.next.as_ref();
     }
 
-    let (mut base_size, mut extra) = (length / k, length % k);
+    let (base_size, mut extra) = (length / k, length % k);
     let mut current = head;
 
     for _ in 0..k {

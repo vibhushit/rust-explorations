@@ -2,6 +2,8 @@ mod lc_1;
 mod lc_725;
 mod lc_1684;
 mod lc_1310;
+mod lc_2419;
+mod lc_1371;
 
 fn main() {
     println!("Welcome to Leetcode Solutions!");
@@ -16,5 +18,11 @@ fn main() {
     // lc_1684::run_count_number_of_consistent_strings();
 
     //leetcode 1310 | XOR Queries of a Subarray
-    lc_1310::run_xor_queries();
+    // lc_1310::run_xor_queries();
+
+    //leetcode 2419 | Longest Subarray with maximum bitwise AND
+    // lc_2419::run_longest_subarray();
+
+    //leetcode 1371 | Find the Longest Substring Containing Vowels in Even Counts
+    lc_1371::run_find_longest_substring();
 }

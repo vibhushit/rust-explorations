@@ -4,6 +4,7 @@ mod lc_1684;
 mod lc_1310;
 mod lc_2419;
 mod lc_1371;
+mod lc_539;
 
 fn main() {
     println!("Welcome to Leetcode Solutions!");
@@ -24,5 +25,8 @@ fn main() {
     // lc_2419::run_longest_subarray();
 
     //leetcode 1371 | Find the Longest Substring Containing Vowels in Even Counts
-    lc_1371::run_find_longest_substring();
+    // lc_1371::run_find_longest_substring();
+
+    //leetcode 539 | Minimun time difference
+    lc_539::run_find_min_difference();
 }

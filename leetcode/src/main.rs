@@ -6,6 +6,7 @@ mod lc_2419;
 mod lc_1371;
 mod lc_539;
 mod lc_386;
+mod lc_440;
 
 fn main() {
     println!("Welcome to Leetcode Solutions!");
@@ -31,7 +32,10 @@ fn main() {
     //leetcode 539 | Minimun time difference
     // lc_539::run_find_min_difference();
 
-    //leetcode 386 | Lexicographical Orger
-    lc_386::run_lexical_order();
+    //leetcode 386 | Lexicographical Order
+    // lc_386::run_lexical_order();
+
+    //leetcode 440 | Kth smallest Lexicographical Order
+    lc_440::run_find_kth_number();
 
 }

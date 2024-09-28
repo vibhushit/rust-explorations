@@ -7,6 +7,7 @@ mod lc_1371;
 mod lc_539;
 mod lc_386;
 mod lc_440;
+mod lc_641;
 
 fn main() {
     println!("Welcome to Leetcode Solutions!");
@@ -36,6 +37,9 @@ fn main() {
     // lc_386::run_lexical_order();
 
     //leetcode 440 | Kth smallest Lexicographical Order
-    lc_440::run_find_kth_number();
+    // lc_440::run_find_kth_number();
+
+    //leetcode 641 | Design circular dequeue
+    lc_641::run_circular_dequeue();
 
 }

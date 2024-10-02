@@ -8,6 +8,7 @@ mod lc_539;
 mod lc_386;
 mod lc_440;
 mod lc_641;
+mod lc_1331;
 
 fn main() {
     println!("Welcome to Leetcode Solutions!");
@@ -40,6 +41,10 @@ fn main() {
     // lc_440::run_find_kth_number();
 
     //leetcode 641 | Design circular dequeue
-    lc_641::run_circular_dequeue();
+    // lc_641::run_circular_dequeue();
+
+    //leetcode 1331 | Rank Transform of an Array
+    lc_1331::run_array_rank_transform();
+
 
 }
